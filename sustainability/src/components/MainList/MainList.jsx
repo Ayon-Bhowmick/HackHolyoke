@@ -38,6 +38,7 @@ const MainList = () => {
         localStorage.setItem("cheese", "12/15/2020");
         localStorage.setItem("yogurt", "07/13/2021");
         localStorage.setItem("ice cream", "11/12/2021");
+        document.cookie = "popup=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
         window.location.reload(false)
     }
 
