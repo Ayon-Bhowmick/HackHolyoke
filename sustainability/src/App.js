@@ -30,11 +30,14 @@ const App = () => {
 					handleClose={removePopup}
 				/>}
 			</div>
-			<Router>
-				<Switch>
-					<Route exact path="/" component={MainList} />
-				</Switch>
-			</Router>
+
+			<div id="addButton">
+				<Router>
+					<Switch>
+						<Route exact path="/" component={MainList} />
+					</Switch>
+				</Router>
+			</div>
 		</div>
 	);
 }
