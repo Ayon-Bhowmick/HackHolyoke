@@ -24,11 +24,26 @@ const MainList = () => {
 
     const remove = (key) => {
         localStorage.removeItem(key);
+        for (let x = 0; x < list.length; x++) {
+            if (x.name === key) {
+                list.splice(x, 1);
+            }
+        }
+        window.location.reload(false)
+    }
+
+    const test = () => {
+        localStorage.setItem("milk", "03/21/2021");
+        localStorage.setItem("juice", "05/21/2020");
+        localStorage.setItem("cheese", "12/15/2020");
+        localStorage.setItem("yogurt", "07/13/2021");
+        localStorage.setItem("ice cream", "11/12/2021");
+        window.location.reload(false)
     }
 
     return(
         <div>
-            <IconButton>
+            <IconButton onClick={test}>
                 <AddCircleRoundedIcon />
             </IconButton>
             <div>
