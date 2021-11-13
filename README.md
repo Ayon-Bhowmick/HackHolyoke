@@ -3,9 +3,7 @@
 ---
 # The stuff about our project will go here
 
-To run:
-1. `yarn build`
-2. `npm start`
+To run: `npm start`
 
 ---
 ## Team Members:
