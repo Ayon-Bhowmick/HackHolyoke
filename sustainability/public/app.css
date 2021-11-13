@@ -1,4 +1,5 @@
 body {
     background: linear-gradient(to bottom, rgb(175, 129, 235), white) fixed;
-
+    margin: 0px;
+    padding: 0px;
 }

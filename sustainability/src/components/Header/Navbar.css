@@ -1,11 +1,69 @@
 .Navbar {
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
+    /*box-sizing: border-box;*/
+    /*width: 100%;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
     padding: 1em;
     margin-bottom: 2em;
-    background-color: rgb(185, 78, 189);
-    color: #fff;
+    margin-left: 0em;
+    background-color: rgba(255, 255, 255, 0.76);
+    /*border: 4px solid #9d75e7;*/
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: rgb(0, 0, 0);
   }
+
+
+.Navbar #logo {
+  float:left;
+  padding : 0;
+  margin : 0;
+}
+
+.Navbar h1 {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  padding-right: 200px; /*counter for image*/
+  font-family: 'Palatino Linotype', serif;
+  font-size: 80px;
+  
+}
+
+.Navbar h2 {
+  margin-top: -10px;
+  text-align: center;
+  padding-right: 200px; /*counter for image*/
+  font-family: 'Palatino Linotype', serif;
+  font-size: 30px;
+  font-style: italic;	
+  
+}
+
+.Navbar a {
+  background: rgb(178, 141, 199);
+  display:inline-block;
+  padding: 14px 20px;
+
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+  /*float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;*/
+}
+
+.Navbar a:hover {
+  background: rgb(193, 253, 185);
+  color: rgb(141, 6, 6);
+}
+
+.Navbar #titlebox {
+  padding-right: 200px;
+  text-align: center;
+}
