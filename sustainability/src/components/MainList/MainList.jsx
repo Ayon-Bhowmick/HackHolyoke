@@ -5,26 +5,26 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Card from '@mui/material/Card'
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
+import RemoveCircleRoundedIcon from '@mui/icons-material/RemoveCircleRounded';
 
 const MainList = () => {
-    // const list = []; 
     const [list, setList] = useState(() => {
         let arr = [];
         let keys = Object.keys(localStorage);
         for (let x = 0; x < keys.length; x++) {
             let data = localStorage.getItem(keys[x]);
-            var dataArr = data.split(",");
             let item = {
-                'name' : dataArr[0],
-                'purchaseDate' : dataArr[1]
+                'name' : keys[x],
+                'purchaseDate' : data
             }
             arr.push(item);
         }
         return arr;
     });
+
+    const remove = (key) => {
+        localStorage.removeItem(key);
+    }
 
     return(
         <div>
@@ -43,7 +43,9 @@ const MainList = () => {
                                     <Typography variant="h6" component="div" sx={{flexGrow: 1, color: '#afafff'}}>
                                         {x.purchaseDate}
                                     </Typography>
-
+                                    <IconButton onClick={() => remove(x.name)}>
+                                        <RemoveCircleRoundedIcon />
+                                    </IconButton>
                                 </Toolbar>
                             </AppBar>
                         </Box>
