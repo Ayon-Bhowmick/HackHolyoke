@@ -1,0 +1,2 @@
+(this.webpackJsonpsustainability=this.webpackJsonpsustainability||[]).push([[0],{9:function(t,e,n){"use strict";n.r(e);var i=n(1),c=n.n(i),s=n(3),r=n.n(s),a=n(0),o=function(){return Object(a.jsx)("div",{children:Object(a.jsx)("h1",{children:"Food Stack"})})};r.a.render(Object(a.jsx)(c.a.StrictMode,{children:Object(a.jsx)(o,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.744068bb.chunk.js.map

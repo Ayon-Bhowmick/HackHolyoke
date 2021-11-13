@@ -1,2 +1,0 @@
-(this.webpackJsonpsustainability=this.webpackJsonpsustainability||[]).push([[0],{9:function(t,e,n){"use strict";n.r(e);var i=n(1),s=n.n(i),c=n(3),r=n.n(c),o=n(0),a=function(){return Object(o.jsx)("div",{children:Object(o.jsx)("h1",{children:"Hello World"})})};r.a.render(Object(o.jsx)(s.a.StrictMode,{children:Object(o.jsx)(a,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.5f4c6b04.chunk.js.map
