@@ -4,9 +4,16 @@ import './Navbar.css';
 function Navbar() {
   return (
     <div className="Navbar">
+      <img src="SusLogo.png" id="logo" alt="Fork with leaves" width="200" height="200"></img>
       <h1>SusFood</h1>
-            <div className="Title-Subtitle">for a sustainable future</div>
-            
+      <h2> for a sustainable future</h2>
+
+      <div id="titlebox">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </div>
+
     </div>
   )
 }

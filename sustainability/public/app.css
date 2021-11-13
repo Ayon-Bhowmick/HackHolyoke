@@ -1,4 +1,13 @@
 body {
     background: linear-gradient(to bottom, rgb(175, 129, 235), white) fixed;
+     margin: 0px;
+}
 
+#addButton {
+    margin-top: 250px;
+    /*
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-left: 80px; */
 }

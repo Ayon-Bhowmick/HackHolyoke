@@ -23,7 +23,7 @@
   }
    
   .close-icon {
-    content: 'x';
+    /* content: 'x'; */
     cursor: pointer;
     position: fixed;
     right: calc(25% - 30px);
