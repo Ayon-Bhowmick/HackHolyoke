@@ -2,6 +2,10 @@
 #### Best Sustainability Hack by PowerAdvocate
 ---
 # The stuff about our project will go here
+
+To run:
+1. `yarn build`
+2. `npm start`
 ---
 ## Team Members:
 1. Ayon Bhowmick
