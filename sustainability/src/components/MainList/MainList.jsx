@@ -55,13 +55,13 @@ const MainList = () => {
 
     return(
         <div>
-            <IconButton onClick={test}>
+            <IconButton onClick={test} className={addBtn}>
                 <AddCircleRoundedIcon />
             </IconButton>
             <div>
                 {list.map((x) => {
                     return (
-                        <Box sx={{ flexGrow: 1 }}>
+                        <Box sx={{ flexGrow: 1, margin: 1 }}>
                             <AppBar position="static">
                                 <Toolbar>
                                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
