@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './Add.css';
 // import ListItems from './ListItems'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTrash } from '@fortawesome/free-solid-svg-icons'
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faTrash)
+// library.add(faTrash)
 
-class App extends React.Component {
+class Add extends React.Component {
   constructor(props){
     super(props);
     this.state = {
@@ -62,4 +61,4 @@ class App extends React.Component {
 }
 
 
-export default App;
+export default Add;
