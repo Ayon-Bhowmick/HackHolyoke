@@ -1,7 +1,7 @@
 import React from 'react';
 import { IconButton, TextField, Box } from '@mui/material';
 import './Add.css';
-import RemoveCircleRoundedIcon from '@mui/icons-material/RemoveCircleRounded';
+import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRounded';
 import { useHistory } from 'react-router-dom';
 
 const Add = () => {
@@ -34,7 +34,7 @@ const Add = () => {
             <TextField label="Expiration data" margin="normal" required name='date' value={obj[1]} variant="standard" onChange={handleInput}></TextField>
           </Box>
           <IconButton onClick={addItem}>
-            <RemoveCircleRoundedIcon />
+            <AddCircleOutlineRoundedIcon />
           </IconButton>
       </header>
     </div>
