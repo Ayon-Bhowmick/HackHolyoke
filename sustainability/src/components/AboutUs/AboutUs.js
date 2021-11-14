@@ -1,9 +1,9 @@
-import './Aboutus.css'
+import './AboutUs.css'
 import React from "react";
 
 
 
-function Aboutus() {
+function AboutUs() {
   return (
         <div className="about">
           <div class="container">
@@ -78,4 +78,4 @@ function Aboutus() {
   )
 }
  
-export default Aboutus;
+export default AboutUs;

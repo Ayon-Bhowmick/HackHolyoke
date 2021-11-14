@@ -3,6 +3,7 @@ import MainList from './components/MainList/MainList'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Header/Navbar';
 import Popup from './components/Popup/Popup'
+import AboutUs from './components/AboutUs/AboutUs'
 
 const App = () => {
 	const [isPopup, togglePopup] = useState(() => {
@@ -38,6 +39,8 @@ const App = () => {
 				<Router>
 					<Switch>
 						<Route exact path="/" component={MainList} />
+						<Route exact path="/AboutUs" component={AboutUs} />
+
 					</Switch>
 				</Router>
 			</div>
