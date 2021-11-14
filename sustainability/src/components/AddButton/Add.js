@@ -12,16 +12,15 @@ const Add = () => {
   const addItem = (e) => {
     localStorage.setItem(obj[0], obj[1]);
     console.log(obj);
-    // history.push('/')
+    history.push('/')
   }
 
   const handleInput = (e) =>{
-    console.log(obj);
-    const {item,date} = e.currentTarget;
-    if (item !== obj[0]) {
-      obj[0] = item
+    const {name,value} = e.currentTarget;
+    if (name === 'item') {
+      obj[0] = value;
     } else {
-      obj[1] = date
+      obj[1] = value;
     }
   }
   
