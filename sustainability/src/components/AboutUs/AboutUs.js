@@ -26,9 +26,11 @@ function AboutUs() {
                     alt="A photo of Ayon, a Lehigh CS student participating in HackHolyoke 2021"
                     height = "300"
                   />
-                  <h2>Ayon Bhowmick</h2>
+                  <h2>Ayon Bhowmick
+                    <b class="pronouns">(he/him)</b>
+                  </h2>
                     <p class="paragraph">
-                     dkjafhksjdfh lkdjf l;kasjdf ;lkasjf;lkas jfl;as f;las jf;lka sjf;lka sjdfl;k jf;lka sjdf;lk asj;dfl jasj;l 
+                     I am a sophmore at Lehigh University where I am studing Computer Science. I am interested in front-end development and would like to explore this field further. 
                     </p>
                 </div>
         
