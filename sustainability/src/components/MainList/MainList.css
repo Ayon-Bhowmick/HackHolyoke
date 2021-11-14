@@ -1,8 +1,7 @@
 .addBtn{
 
     float: right;
-<<<<<<< HEAD
-    
+    right: 5%;
 }
 
 .good{
@@ -15,7 +14,4 @@
 
 .spoiled{
     color:darkred;
-=======
-    right: 5%;
->>>>>>> 1260b871a8890b65eb71c3be0be7857865af961d
 }
