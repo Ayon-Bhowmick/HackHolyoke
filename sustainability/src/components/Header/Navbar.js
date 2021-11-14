@@ -9,9 +9,9 @@ function Navbar() {
       <h2> for a sustainable future</h2>
 
         <div id="titlebox">
-          <a href="#/">Home</a>
-          <a href="#/AboutUs">About Us</a>
-          <a href="#/Contact">Contact</a>
+          <a href="/">Home</a>
+          <a href="/AboutUs">About Us</a>
+          <a href="/Contact">Contact</a>
         </div>
 
         <div className="navbar-container">
