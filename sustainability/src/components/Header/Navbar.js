@@ -11,7 +11,7 @@ function Navbar() {
         <div id="titlebox">
           <a href="/">Home</a>
           <a href="/AboutUs">About Us</a>
-          <a href="/Contact">Contact</a>
+          <a href="/Demo">Demo</a>
         </div>
 
         <div className="navbar-container">
