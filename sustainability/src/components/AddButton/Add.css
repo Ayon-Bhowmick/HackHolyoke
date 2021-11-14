@@ -1,7 +1,6 @@
 body{
     background-color: #9266ff;
     text-align: center;
-    align-self: center;
   }
   .App{
     background-color: #e7cfee;
@@ -11,6 +10,10 @@ body{
     padding:10px;
   }
   
+   header {
+    margin-left: 90px;
+
+  }
   #to-do-form input{
     /* float: left; */
     background-color: rgb(35, 136, 167);
