@@ -90,6 +90,9 @@ const MainList = () => {
                     <MenuItem onClick={handleClose}>Make Shopping List</MenuItem>
                 </Menu>
             </div>
+
+            <h4>Your List:</h4>
+            
             <div>
                 {list.map((x) => {
                     return (

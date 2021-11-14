@@ -22,6 +22,7 @@
 }
 
 .Navbar h1 {
+  position: relative;
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -29,6 +30,7 @@
   font-family: 'Palatino Linotype', serif;
   font-size: 80px;
   
+
 }
 
 .Navbar h2 {

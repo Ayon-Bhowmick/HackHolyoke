@@ -35,7 +35,8 @@ const App = () => {
 					handleClose={removePopup}
 				/>}
 			</div>
-
+			
+			<h3>Your List:</h3>
 			<div id="addButton">
 				<Router>
 					<Switch>
@@ -45,6 +46,7 @@ const App = () => {
 					</Switch>
 				</Router>
 			</div>
+			
 		</div>
 	);
 }
