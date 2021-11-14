@@ -60,7 +60,12 @@
 
 .Navbar a:hover {
   background: rgb(193, 253, 185);
-  color: rgb(141, 6, 6);
+  color: rgb(107, 22, 163);
+}
+
+.Navbar a:active {
+  background: rgb(193, 253, 185);
+  color: rgb(255, 255, 255);
 }
 
 .Navbar #titlebox {

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Header/Navbar';
 import Popup from './components/Popup/Popup'
 import AboutUs from './components/AboutUs/AboutUs'
+import Demo from './components/Demo/Demo'
 
 const App = () => {
 	const [isPopup, togglePopup] = useState(() => {
@@ -40,7 +41,7 @@ const App = () => {
 					<Switch>
 						<Route exact path="/" component={MainList} />
 						<Route exact path="/AboutUs" component={AboutUs} />
-
+						<Route exact path="/Demo" component={Demo} />
 					</Switch>
 				</Router>
 			</div>
