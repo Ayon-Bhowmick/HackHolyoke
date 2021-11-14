@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import RemoveCircleRoundedIcon from '@mui/icons-material/RemoveCircleRounded';
+import './MainList.css';
 
 const MainList = () => {
     const daysRemaining = (purchaseDate) => {
