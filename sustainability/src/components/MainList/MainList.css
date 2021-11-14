@@ -5,10 +5,6 @@
 
 }
 
-.addBtn:active {
-    margin:0px;
-    padding:0px;}
-
 .good {
   color: rgb(152, 208, 58);
   
@@ -57,11 +53,4 @@ h4 {
     text-align: center;
     font-size: 32px;
     padding-top: 20px;
-}
-
-#datePicker {
-    position:relative;
-    margin-top: -20px;
-    padding-bottom: 10px;
-    padding-left:450px;
 }
