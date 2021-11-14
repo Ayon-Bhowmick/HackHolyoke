@@ -98,6 +98,12 @@ const MainList = () => {
 
             <h4>Your List:</h4>
             
+            <form>
+                <label for="dt">Date: </label>
+                <input name="dt" type="date" />
+                <input type="submit" />
+            </form>
+
             <div>
                 {list.map((x) => {
                     return (
