@@ -36,7 +36,6 @@ const App = () => {
 				/>}
 			</div>
 			
-			<h3>Your List:</h3>
 			<div id="addButton">
 				<Router>
 					<Switch>
