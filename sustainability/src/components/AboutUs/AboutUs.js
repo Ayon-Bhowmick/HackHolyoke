@@ -62,7 +62,7 @@ function AboutUs() {
                     <b class="pronouns"> (she/her)</b>
                   </h2>
                   <p class="paragraph">
-                      I am a sophomore at Lehigh University studying computer science and graphic design. I am interested in working in game development. In my free time I enjoy painting and doing arts and crafts. This is my first hackathon and the experience has been lots of fun :)
+                      I am a sophomore at Lehigh University studying Computer Science and Graphic Design. I am interested in working in game development. In my free time I enjoy painting and doing arts and crafts. This is my first hackathon and the experience has been lots of fun :)
                     </p>
                 </div>
                 <div class="Erick">
