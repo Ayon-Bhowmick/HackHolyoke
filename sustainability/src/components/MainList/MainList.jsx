@@ -58,11 +58,6 @@ const MainList = () => {
     const addShopping = () => history.push('/ShoppingList');
 
     const test = () => {
-        localStorage.setItem("milk", "03/21/2021");
-        localStorage.setItem("juice", "05/21/2022");
-        localStorage.setItem("cheese", "12/15/2020");
-        localStorage.setItem("yogurt", "11/15/2021");
-        localStorage.setItem("ice cream", "11/17/2021");
         document.cookie = "popup=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
         window.location.reload(false)
     }
