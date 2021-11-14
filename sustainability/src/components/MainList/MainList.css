@@ -2,8 +2,12 @@
   float: right;
   right: 5%;
   font-size: xx-large;
-  
+
 }
+
+.addBtn:active {
+    margin:0px;
+    padding:0px;}
 
 .good {
   color: rgb(152, 208, 58);
