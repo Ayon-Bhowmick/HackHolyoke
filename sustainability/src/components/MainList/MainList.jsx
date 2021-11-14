@@ -52,7 +52,7 @@ const MainList = () => {
 
     const test = () => {
         localStorage.setItem("milk", "03/21/2021");
-        localStorage.setItem("juice", "05/21/2020");
+        localStorage.setItem("juice", "05/21/2022");
         localStorage.setItem("cheese", "12/15/2020");
         localStorage.setItem("yogurt", "11/15/2021");
         localStorage.setItem("ice cream", "11/17/2021");
@@ -106,7 +106,11 @@ const MainList = () => {
                                     </Typography>
                                     <Typography variant="h6" component="div" sx={{flexGrow: 1}} 
                                     className={(x.difDay > 3) ? "good" : (x.difDay > 0) ? "almost" : "spoiled"}>
-                                        {x.difDay} {(x.difDay < 0) ? <div><h6>Throw away</h6></div>:<div><h6>days before spoiled</h6></div>}
+                                        {x.difDay} days
+                                    </Typography>
+                                    <Typography variant="h6" component="div" sx={{flexGrow: 1}} 
+                                    className={(x.difDay > 3) ? "good" : (x.difDay > 0) ? "almost" : "spoiled"}>
+                                        {(x.difDay > 3) ? <h6 class="days">Good</h6>: (x.difDay > 0) ? <h6 class="days">Spoils soon!</h6> :  <h6 class="throw">Throw/compost</h6>}
                                     </Typography>
                                     <IconButton onClick={() => remove(x.name)}>
                                         <RemoveCircleRoundedIcon />
