@@ -26,7 +26,7 @@
   text-align: center;
   padding: 0px;
   margin: 0px;
-  padding-right: 200px; /*counter for image*/
+  padding-right: 220px; /*counter for image*/
   font-family: 'Palatino Linotype', serif;
   font-size: 80px;
   
@@ -36,7 +36,7 @@
 .Navbar h2 {
   margin-top: -10px;
   text-align: center;
-  padding-right: 200px; /*counter for image*/
+  padding-right: 220px; /*counter for image*/
   font-family: 'Palatino Linotype', serif;
   font-size: 30px;
   font-style: italic;	
