@@ -15,7 +15,7 @@ function Navbar() {
         </div>
 
         <div className="navbar-container">
-          link
+  
         </div>
     </div>
   )

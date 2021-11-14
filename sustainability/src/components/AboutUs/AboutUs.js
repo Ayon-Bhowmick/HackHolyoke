@@ -21,8 +21,8 @@ function AboutUs() {
                   
                   <img
                     class="img-fluid rounded mb-4 mb-lg-0"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-                    alt=""
+                    src="ayon.png"
+                    alt="A photo of Ayon, a Lehigh CS student participating in HackHolyoke 2021"
                     height = "300"
                   />
                   <h2>Ayon Bhowmick</h2>
@@ -34,8 +34,8 @@ function AboutUs() {
                 <div class="Josh">
                   <img
                     class="img-fluid rounded mb-4 mb-lg-0"
-                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-                    alt=""
+                    src="Josh.JPG"
+                    alt="A photo of Josh, a Lehigh CS student participating in HackHolyoke 2021"
                     height ="300"
                   />
                   <h2>Josh Tripoli</h2>
@@ -48,8 +48,8 @@ function AboutUs() {
                   
                     <img
                       class="img-fluid rounded mb-4 mb-lg-0"
-                      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-                      alt=""
+                      src="IMG_4368.jpg"
+                      alt="A photo of Tiana, a Lehigh CS student participating in HackHolyoke 2021"
                       height = "300"
                     />
                   <h2>Tiana Aldroubi</h2>
@@ -60,8 +60,8 @@ function AboutUs() {
                 <div class="Erick">
                   <img
                       class="img-fluid rounded mb-4 mb-lg-0"
-                      src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-                      alt=""
+                      src="erick.jpeg"
+                      alt="A photo of Erick, a Lehigh CS student participating in HackHolyoke 2021"
                       height = "300"
                     />
                   <h2>Erick Tepen</h2>
