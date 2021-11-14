@@ -1,4 +1,4 @@
-import React, { useState, componentDidMount } from 'react';
+import React, { useState } from 'react';
 import MainList from './components/MainList/MainList'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Header/Navbar';
@@ -35,7 +35,7 @@ const App = () => {
 					handleClose={removePopup}
 				/>}
 			</div>
-
+			
 			<div id="addButton">
 				<Router>
 					<Switch>
@@ -45,6 +45,7 @@ const App = () => {
 					</Switch>
 				</Router>
 			</div>
+			
 		</div>
 	);
 }

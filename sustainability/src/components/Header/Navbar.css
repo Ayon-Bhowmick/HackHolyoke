@@ -22,6 +22,7 @@
 }
 
 .Navbar h1 {
+  position: relative;
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -29,6 +30,7 @@
   font-family: 'Palatino Linotype', serif;
   font-size: 80px;
   
+
 }
 
 .Navbar h2 {
@@ -45,9 +47,10 @@
   background: rgb(178, 141, 199);
   display:inline-block;
   padding: 10px 20px;
-
+  text-decoration: none;
   text-align: center;
   color: rgb(0, 0, 0);
+  font-size: 20px;
   
   /*float: left;
   display: block;
@@ -59,6 +62,8 @@
 }
 
 .Navbar a:hover {
+  animation-name: green_fade;
+  animation-duration: 1s;
   background: rgb(193, 253, 185);
   color: rgb(107, 22, 163);
 }
@@ -71,4 +76,13 @@
 .Navbar #titlebox {
   padding-right: 200px;
   text-align: center;
+}
+
+@keyframes green_fade {
+  from {
+    background-color: rgb(178, 141, 199);
+  }
+  to {
+    background-color: rgb(193, 253, 185);
+  }
 }

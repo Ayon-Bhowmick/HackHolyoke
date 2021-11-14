@@ -17,6 +17,7 @@ function Navbar() {
         <div className="navbar-container">
   
         </div>
+        
     </div>
   )
 }
