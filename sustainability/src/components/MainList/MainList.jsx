@@ -55,7 +55,7 @@ const MainList = () => {
 
     return(
         <div>
-            <IconButton onClick={test} className={addBtn}>
+            <IconButton onClick={test} className={"addBtn"}>
                 <AddCircleRoundedIcon />
             </IconButton>
             <div>
