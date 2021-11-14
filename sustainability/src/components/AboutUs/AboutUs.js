@@ -12,6 +12,7 @@ function AboutUs() {
               <div class="col-lg-5">
                 <h1 class="abt">About Us!</h1>
                 <p class="mission">
+                  Meet the Green Seg We are a team of CS students participating in from Lehigh University HackHolyoke 2021. With this webApp mission with SusFood is to provide an easy way for an individual to keep track of their perishable food items. We hope this app can help eliminate food waste as well as costs for every user. 
                   With SusFood our mission is to provide an easy way for an individual to keep track of their perishable food items. We hope this app can help eliminate food waste as well as costs for every user. 
                 </p>
               </div>
