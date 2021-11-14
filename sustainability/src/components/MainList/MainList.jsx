@@ -67,7 +67,7 @@ const MainList = () => {
                                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                                         {x.name}
                                     </Typography>
-                                    <Typography variant="h6" component="div" sx={{flexGrow: 1, color: '#afafff'}}>
+                                    <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
                                         {x.difDay} {(x.difDay < 0) ? <div><h6>Throw away</h6></div>:<div><h6>days before spoiled</h6></div>}
                                     </Typography>
                                     <IconButton onClick={() => remove(x.name)}>
