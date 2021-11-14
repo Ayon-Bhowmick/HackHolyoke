@@ -64,5 +64,28 @@
   }
   .paragraph {
       width: 300px;
-      text-align: center;
+      text-align: left;
+ 
   }
+  .img {
+     border: 4px solid rgb(173, 121, 184);
+  }
+
+  .abt {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .mission{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 130%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .pronouns{
+    color: rgb(73, 73, 73);
+    font-size: 70%;
+  }
+
