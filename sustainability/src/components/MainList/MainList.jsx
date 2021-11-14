@@ -104,7 +104,7 @@ const MainList = () => {
                               
                             <AppBar position="static" className="bar" style={{ background: '#F4E8FE' }}>
                                 <Toolbar>
-                                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} className="name">
+                                    <Typography variant="h6" component="div" sx={{ flexGrow: 1, textTransform: "uppercase" }} className="name">
                                         {x.name}
                                     </Typography>
                                     <Typography variant="h6" component="div" sx={{flexGrow: 1}} 
