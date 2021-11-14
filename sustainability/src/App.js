@@ -5,6 +5,7 @@ import Navbar from './components/Header/Navbar';
 import Popup from './components/Popup/Popup'
 import AboutUs from './components/AboutUs/AboutUs'
 import Demo from './components/Demo/Demo'
+import Add from './components/AddButton/Add'
 
 const App = () => {
 	const [isPopup, togglePopup] = useState(() => {
@@ -42,6 +43,7 @@ const App = () => {
 						<Route exact path="/" component={MainList} />
 						<Route exact path="/AboutUs" component={AboutUs} />
 						<Route exact path="/Demo" component={Demo} />
+						<Route exact path="/Add" component={Add} />
 					</Switch>
 				</Router>
 			</div>
