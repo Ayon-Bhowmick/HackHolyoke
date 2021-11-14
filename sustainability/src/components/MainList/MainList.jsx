@@ -81,7 +81,7 @@ const MainList = () => {
                 aria-haspopup="true"
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}>
-                    <AddCircleRoundedIcon fontSize="large"/>
+                    <AddCircleRoundedIcon/>
                 </IconButton>
                <Menu
                 id="basic-menu"
