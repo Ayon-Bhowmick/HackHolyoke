@@ -5,6 +5,7 @@ import Navbar from './components/Header/Navbar';
 import Popup from './components/Popup/Popup'
 import AboutUs from './components/AboutUs/AboutUs'
 import Demo from './components/Demo/Demo'
+import ShoppingList from './components/ShoppingList/ShoppingList'
 import Add from './components/AddButton/Add'
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
 						<Route exact path="/AboutUs" component={AboutUs} />
 						<Route exact path="/Demo" component={Demo} />
 						<Route exact path="/Add" component={Add} />
+						<Route exact path="/ShoppingList" component={ShoppingList} />
 					</Switch>
 				</Router>
 			</div>

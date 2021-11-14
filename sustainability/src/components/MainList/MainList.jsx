@@ -98,7 +98,7 @@ const MainList = () => {
 
             <h4>Your List:</h4>
             
-            <form>
+            <form id = "datePicker">
                 <label for="dt">Date: </label>
                 <input name="dt" type="date" />
                 <input type="submit" />

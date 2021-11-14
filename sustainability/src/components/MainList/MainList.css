@@ -51,9 +51,17 @@
     padding-top: 50px;
     
 }
+
 h4 {
     margin-left: 95px;
     text-align: center;
     font-size: 32px;
     padding-top: 20px;
+}
+
+#datePicker {
+    position:relative;
+    margin-top: -20px;
+    padding-bottom: 10px;
+    padding-left:450px;
 }
