@@ -3,3 +3,15 @@
     float: right;
     right: 5%;
 }
+
+.good{
+    color:forestgreen;
+}
+
+.almost{
+    color:darkgoldenrod;
+}
+
+.spoiled{
+    color:darkred;
+}
