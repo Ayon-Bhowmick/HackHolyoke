@@ -74,8 +74,8 @@ function AboutUs() {
                     />
                   <h2>Erick Tepen</h2>
                   <p class="paragraph">
-                     dkjafhksjdfh lkdjf l;kasjdf ;lkasjf;lkas jfl;as f;las jf;lka sjf;lka sjdfl;k jf;lka sjdf;lk asj;dfl jasj;l 
-                    </p>
+                  Greetings! My name is Erick Tepan. I am currently a sophomore majoring in Computer and Business at Lehigh University. It’s been a pleasure to have HackHolyoke as my first Hackathon experience. I’m interested in front-end development, game development, and data analytics. Email: erick.tepan2001@gmail.com                     
+                  </p>
                 </div>
               </div>
 
