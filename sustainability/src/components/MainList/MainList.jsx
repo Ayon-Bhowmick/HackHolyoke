@@ -55,6 +55,8 @@ const MainList = () => {
 
     const addItem = () => history.push('/Add');
 
+    const addShopping = () => history.push('/ShoppingList');
+
     const test = () => {
         localStorage.setItem("milk", "03/21/2021");
         localStorage.setItem("juice", "05/21/2022");
@@ -92,7 +94,7 @@ const MainList = () => {
                 'aria-labelledby': 'basic-button',
                 }}>
                     <MenuItem onClick={addItem}>Add item</MenuItem>
-                    <MenuItem onClick={handleClose}>Make Shopping List</MenuItem>
+                    <MenuItem onClick={addShopping}>Make Shopping List</MenuItem>
                 </Menu>
             </div>
 

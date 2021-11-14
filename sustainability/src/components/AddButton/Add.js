@@ -1,63 +1,46 @@
 import React from 'react';
+import { IconButton, TextField, Box } from '@mui/material';
 import './Add.css';
-// import ListItems from './ListItems'
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { faTrash } from '@fortawesome/free-solid-svg-icons'
+import RemoveCircleRoundedIcon from '@mui/icons-material/RemoveCircleRounded';
+import { useHistory } from 'react-router-dom';
 
-// library.add(faTrash)
+const Add = () => {
+  let obj = [];
 
-class Add extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      items:[],
-      currentItem:{
-        text:'',
-        key:''
-      }
-    }
-    this.addItem = this.addItem.bind(this);
-    this.handleInput = this.handleInput.bind(this);
-    this.deleteItem = this.deleteItem.bind(this);
-    this.setUpdate = this.setUpdate.bind(this);
-  }
+  const history = useHistory();
  
-  
-  addItem(e){
-    e.preventDefault();
-    const newItem = this.state.currentItem;
-    if(newItem.text !==""){
-      const items = [...this.state.items, newItem];
-      this.setState({
-        items: items,
-        currentItem:{
-          text:'',
-          key:''
-        }
-    })
+  const addItem = (e) => {
+    localStorage.setItem(obj[0], obj[1]);
+    console.log(obj);
+    // history.push('/')
+  }
+
+  const handleInput = (e) =>{
+    console.log(obj);
+    const {item,date} = e.currentTarget;
+    if (item !== obj[0]) {
+      obj[0] = item
+    } else {
+      obj[1] = date
     }
   }
-  handleInput(e){
-    this.setState({
-      currentItem:{
-        [e.target.name]: e.target.value
-      }
-    })
-  }
- render(){
+  
   return (
     <div className="App">
       <header>
-        <form id="to-do-form" onSubmit={this.addItem}>
-          <input type="text" placeholder="Enter Food Name" value= {this.state.currentItem.text} onChange={this.handleInput}></input>
-          <input type="key" placeholder="Enter Date" value= {this.state.currentItem.key} onChange={this.handleInput}></input>
-          <button type="submit">Add</button>
-        </form>
-        <p>{this.state.items.text}</p>
+          <Box sx={{width:500}}>
+            <TextField label="Name of item" margin="normal" required name='item' value={obj[0]} variant="standard" onChange={handleInput}></TextField>
+          </Box>
+          <Box sx={{width:500}}>
+            <TextField label="Expiration data" margin="normal" required name='date' value={obj[1]} variant="standard" onChange={handleInput}></TextField>
+          </Box>
+          <IconButton onClick={addItem}>
+            <RemoveCircleRoundedIcon />
+          </IconButton>
       </header>
     </div>
   );
- }
+ 
 }
 
 
