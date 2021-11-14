@@ -92,6 +92,14 @@ const MainList = () => {
                 onClose={handleClose}
                 MenuListProps={{
                 'aria-labelledby': 'basic-button',
+                }}
+                anchorOrigin={{
+                    vertical: 'top',
+                    horizontal: 'left',
+                }}
+                transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
                 }}>
                     <MenuItem onClick={addItem}>Add item</MenuItem>
                     <MenuItem onClick={addShopping}>Make Shopping List</MenuItem>
