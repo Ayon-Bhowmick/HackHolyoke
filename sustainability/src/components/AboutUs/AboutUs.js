@@ -13,7 +13,7 @@ function AboutUs() {
                 <h1 class="abt">Meet <em>The Green Seg Faults</em>!</h1>
                 <p class="mission">
                   We are a team of CS students from Lehigh University participating in HackHolyoke 2021. With this webApp, our mission with SusFood is to provide an easy way for an individuals to keep track of their perishable food items. We hope this app can help eliminate food waste as well as costs for every user. 
-                  With SusFood our mission is to provide an easy way for an individual to keep track of their perishable food items. We hope this app can help eliminate food waste as well as costs for every user. 
+                   
                 </p>
               </div>
               <div class="col-lg-7">
@@ -30,7 +30,7 @@ function AboutUs() {
                     <b class="pronouns">(he/him)</b>
                   </h2>
                     <p class="paragraph">
-                     I am a sophmore at Lehigh University where I am studing Computer Science. I am interested in front-end development and would like to explore this field further. 
+                     I am a sophomore at Lehigh University where I am studing Computer Science. I am interested in front-end development and would like to explore this field further. 
                     </p>
                 </div>
         
@@ -62,7 +62,7 @@ function AboutUs() {
                     <b class="pronouns"> (she/her)</b>
                   </h2>
                   <p class="paragraph">
-                      I am a sophmore at Lehigh University studying computer science and graphic design. I am interested in working in game development someday. In my free time I enjoy painting and doing arts and crafts. This is my first hackathon and the experience has been lots of fun :)
+                      I am a sophomore at Lehigh University studying computer science and graphic design. I am interested in working in game development. In my free time I enjoy painting and doing arts and crafts. This is my first hackathon and the experience has been lots of fun :)
                     </p>
                 </div>
                 <div class="Erick">
