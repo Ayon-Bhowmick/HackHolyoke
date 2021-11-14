@@ -61,13 +61,15 @@ const MainList = () => {
             <div>
                 {list.map((x) => {
                     return (
-                        <Box sx={{ flexGrow: 1, margin: 1 }}>
-                            <AppBar position="static">
+
+                         <Box sx={{ flexGrow: 1, margin: 1 }} className={"boxes"} color="red">
+                              
+                            <AppBar position="static" className="bar" style={{ background: '#F4E8FE' }}>
                                 <Toolbar>
-                                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} className="name">
                                         {x.name}
                                     </Typography>
-                                    <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
+                                    <Typography variant="h6" component="div" sx={{flexGrow: 1}} className="exp">
                                         {x.difDay} {(x.difDay < 0) ? <div><h6>Throw away</h6></div>:<div><h6>days before spoiled</h6></div>}
                                     </Typography>
                                     <IconButton onClick={() => remove(x.name)}>
