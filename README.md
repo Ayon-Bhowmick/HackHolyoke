@@ -7,6 +7,15 @@
 
 To run: `npm start`
 
+#### Tools used:
+
+- Javascript
+- HTML5
+- CSS3
+- React.js
+- Material UI
+- Node.js
+
 ---
 ## Team Members:
 1. Ayon Bhowmick
