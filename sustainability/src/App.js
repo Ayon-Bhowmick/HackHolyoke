@@ -28,7 +28,7 @@ const App = () => {
 				{isPopup && <Popup
 					content={<>
 						<b>Welcome to SusFoods!</b>
-						<p>We strive to help you eliminate your food waste by keeping track of the expiration dates on your food.
+						<p>We strive to help you eliminate your food waste by keeping track of the expiration dates on your food.<br></br>
 							Simply click the plus sign in the top right corner of your screen to create a new list and use SusFoods as your grocery list. Once you’re finished shopping, add in the expiration date of each item and we’ll keep track of the rest.
 						</p>
 					</>}

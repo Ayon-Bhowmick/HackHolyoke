@@ -1,17 +1,28 @@
-.addBtn{
-
-    float: right;
-    right: 5%;
+.addBtn {
+  float: right;
+  right: 5%;
 }
 
-.good{
-    color:forestgreen;
+.good {
+  color: forestgreen;
 }
 
-.almost{
-    color:darkgoldenrod;
+.almost {
+  color: darkgoldenrod;
 }
 
 .spoiled{
     color:darkred;
 }
+
+.boxes {
+    align-self: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.name{
+    color: black;
+}
+
