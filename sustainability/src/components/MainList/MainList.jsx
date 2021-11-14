@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import RemoveCircleRoundedIcon from '@mui/icons-material/RemoveCircleRounded';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
+import { useHistory } from 'react-router-dom';
 import './MainList.css';
 
 const MainList = () => {
@@ -23,6 +24,8 @@ const MainList = () => {
             const difTime = exp.getTime() - now.getTime();
             return Math.round(difTime / (86400000));
     }
+
+    const history = useHistory();
 
     const [list, setList] = useState(() => {
         let arr = [];
@@ -49,6 +52,8 @@ const MainList = () => {
         }
         window.location.reload(false)
     }
+
+    const addItem = () => history.push('/Add');
 
     const test = () => {
         localStorage.setItem("milk", "03/21/2021");
@@ -86,7 +91,7 @@ const MainList = () => {
                 MenuListProps={{
                 'aria-labelledby': 'basic-button',
                 }}>
-                    <MenuItem onClick={handleClose}>Add item</MenuItem>
+                    <MenuItem onClick={addItem}>Add item</MenuItem>
                     <MenuItem onClick={handleClose}>Make Shopping List</MenuItem>
                 </Menu>
             </div>
