@@ -1,15 +1,14 @@
-.addBtn{
-
-    float: right;
-    right: 5%;
+.addBtn {
+  float: right;
+  right: 5%;
 }
 
-.good{
-    color:forestgreen;
+.good {
+  color: forestgreen;
 }
 
-.almost{
-    color:darkgoldenrod;
+.almost {
+  color: darkgoldenrod;
 }
 
 .spoiled{
