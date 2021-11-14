@@ -12,7 +12,7 @@ function AboutUs() {
               <div class="col-lg-5">
                 <h1 class="font-weight-light">About Us!</h1>
                 <p>
-                  We are lehigh students...
+                  Our mission with SusFood is to provide an easy way for an individual to keep track of their perishable food items. We hope this app can help eliminate food waste as well as costs for every user. 
                 </p>
               </div>
               <div class="col-lg-7">
