@@ -10,9 +10,8 @@ body{
     padding:10px;
   }
   
-   header {
+   #buttonsToCenter {
     margin-left: 90px;
-
   }
   #to-do-form input{
     /* float: left; */

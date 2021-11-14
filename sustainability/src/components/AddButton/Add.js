@@ -26,7 +26,7 @@ const Add = () => {
   
   return (
     <div className="App">
-      <header>
+      <header id="buttonsToCenter">
           <Box sx={{width:500}}>
             <TextField label="Name of item" margin="normal" required name='item' value={obj[0]} variant="standard" onChange={handleInput}></TextField>
           </Box>
